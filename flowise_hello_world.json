@@ -1,0 +1,70 @@
+{
+  "nodes": [
+    {
+      "id": "chatOpenAI_0",
+      "position": { "x": 300, "y": 300 },
+      "type": "customNode",
+      "data": {
+        "id": "chatOpenAI_0",
+        "label": "OpenAI",
+        "name": "chatOpenAI",
+        "type": "ChatOpenAI",
+        "baseClasses": ["ChatOpenAI", "BaseChatModel", "Runnable"],
+        "category": "Chat Models",
+        "inputs": {
+          "modelName": "gpt-4o-mini",
+          "temperature": 0.7,
+          "streaming": true
+        }
+      }
+    },
+    {
+      "id": "bufferMemory_0",
+      "position": { "x": 300, "y": 600 },
+      "type": "customNode",
+      "data": {
+        "id": "bufferMemory_0",
+        "label": "Buffer Memory",
+        "name": "bufferMemory",
+        "type": "BufferMemory",
+        "baseClasses": ["BufferMemory", "BaseChatMemory", "BaseMemory"],
+        "category": "Memory",
+        "inputs": {
+          "memoryKey": "chat_history"
+        }
+      }
+    },
+    {
+      "id": "conversationChain_0",
+      "position": { "x": 700, "y": 400 },
+      "type": "customNode",
+      "data": {
+        "id": "conversationChain_0",
+        "label": "Conversation Chain",
+        "name": "conversationChain",
+        "type": "ConversationChain",
+        "baseClasses": ["ConversationChain", "LLMChain", "BaseChain", "Runnable"],
+        "category": "Chains",
+        "inputs": {
+          "systemMessagePrompt": "The following is a friendly conversation between a human and an AI."
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "chatOpenAI_0",
+      "sourceHandle": "chatOpenAI_0-output-chatOpenAI-ChatOpenAI|BaseChatModel|Runnable",
+      "target": "conversationChain_0",
+      "targetHandle": "conversationChain_0-input-model-BaseChatModel",
+      "id": "chatOpenAI_0-chatOpenAI_0-output-chatOpenAI-ChatOpenAI|BaseChatModel|Runnable-conversationChain_0-conversationChain_0-input-model-BaseChatModel"
+    },
+    {
+      "source": "bufferMemory_0",
+      "sourceHandle": "bufferMemory_0-output-bufferMemory-BufferMemory|BaseChatMemory|BaseMemory",
+      "target": "conversationChain_0",
+      "targetHandle": "conversationChain_0-input-memory-BaseMemory",
+      "id": "bufferMemory_0-bufferMemory_0-output-bufferMemory-BufferMemory|BaseChatMemory|BaseMemory-conversationChain_0-conversationChain_0-input-memory-BaseMemory"
+    }
+  ]
+}
