@@ -1,0 +1,74 @@
+{
+  "pages": {
+    "/_not-found": [
+      "static/chunks/webpack-494762d3ba04debc.js",
+      "static/chunks/fd9d1056-dd03aefca82c19e2.js",
+      "static/chunks/472-f01bfe91c898bb09.js",
+      "static/chunks/main-app-da089e35344bfbbc.js",
+      "static/chunks/app/_not-found-bb3724671f8923c5.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-494762d3ba04debc.js",
+      "static/chunks/fd9d1056-dd03aefca82c19e2.js",
+      "static/chunks/472-f01bfe91c898bb09.js",
+      "static/chunks/main-app-da089e35344bfbbc.js",
+      "static/css/f799695283fc7a63.css",
+      "static/chunks/app/layout-74fea9e014d858fc.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-494762d3ba04debc.js",
+      "static/chunks/fd9d1056-dd03aefca82c19e2.js",
+      "static/chunks/472-f01bfe91c898bb09.js",
+      "static/chunks/main-app-da089e35344bfbbc.js",
+      "static/chunks/app/page-f111971f59cce876.js"
+    ],
+    "/recruiter/analytics/page": [
+      "static/chunks/webpack-494762d3ba04debc.js",
+      "static/chunks/fd9d1056-dd03aefca82c19e2.js",
+      "static/chunks/472-f01bfe91c898bb09.js",
+      "static/chunks/main-app-da089e35344bfbbc.js",
+      "static/chunks/441-1828a45fb76d6d72.js",
+      "static/chunks/896-50ab5ec1e59c9f7e.js",
+      "static/chunks/app/recruiter/analytics/page-54cbf5dd6968fd1b.js"
+    ],
+    "/recruiter/layout": [
+      "static/chunks/webpack-494762d3ba04debc.js",
+      "static/chunks/fd9d1056-dd03aefca82c19e2.js",
+      "static/chunks/472-f01bfe91c898bb09.js",
+      "static/chunks/main-app-da089e35344bfbbc.js",
+      "static/chunks/889-fe346f7523cef1ea.js",
+      "static/chunks/app/recruiter/layout-3174fc07d42d33b7.js"
+    ],
+    "/recruiter/page": [
+      "static/chunks/webpack-494762d3ba04debc.js",
+      "static/chunks/fd9d1056-dd03aefca82c19e2.js",
+      "static/chunks/472-f01bfe91c898bb09.js",
+      "static/chunks/main-app-da089e35344bfbbc.js",
+      "static/chunks/app/recruiter/page-592686e0db1213ff.js"
+    ],
+    "/interview/[id]/page": [
+      "static/chunks/webpack-494762d3ba04debc.js",
+      "static/chunks/fd9d1056-dd03aefca82c19e2.js",
+      "static/chunks/472-f01bfe91c898bb09.js",
+      "static/chunks/main-app-da089e35344bfbbc.js",
+      "static/chunks/44-c3838e21faf09cbf.js",
+      "static/chunks/app/interview/[id]/page-8ed0c9272b7bfb6d.js"
+    ],
+    "/recruiter/candidates/page": [
+      "static/chunks/webpack-494762d3ba04debc.js",
+      "static/chunks/fd9d1056-dd03aefca82c19e2.js",
+      "static/chunks/472-f01bfe91c898bb09.js",
+      "static/chunks/main-app-da089e35344bfbbc.js",
+      "static/chunks/889-fe346f7523cef1ea.js",
+      "static/chunks/app/recruiter/candidates/page-4567c09cbe9a71af.js"
+    ],
+    "/recruiter/candidates/[id]/page": [
+      "static/chunks/webpack-494762d3ba04debc.js",
+      "static/chunks/fd9d1056-dd03aefca82c19e2.js",
+      "static/chunks/472-f01bfe91c898bb09.js",
+      "static/chunks/main-app-da089e35344bfbbc.js",
+      "static/chunks/441-1828a45fb76d6d72.js",
+      "static/chunks/app/recruiter/candidates/[id]/page-ff9b871fa202ef56.js"
+    ]
+  }
+}
